@@ -3,7 +3,7 @@
 This project implements a bi-layer smoking detection system using computer vision and deep learning. The system detects smoking activities from CCTV footage by analyzing skeletal poses and using a pre-trained VGG16 model for cigarette detection.
 
 ## Project Structure
-
+```
 /SmokingDetection/
 ├── CCTV_smoking.mp4
 ├── CCTV_high_res_smoking.mp4
@@ -14,6 +14,7 @@ This project implements a bi-layer smoking detection system using computer visio
 │ └── logging.py
 ├── output_videos/
 └── smoking_log.csv
+```
 
 ## Requirements
 
