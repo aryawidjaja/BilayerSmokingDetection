@@ -30,6 +30,23 @@ Install the required packages using pip:
 pip install tensorflow opencv-python mediapipe numpy
 ```
 
+## Dataset
+Download the dataset from Kaggle [https://www.kaggle.com/datasets/vitaminc/cigarette-smoker-detection/data]:
+
+Go to the Cigarette Smoker Detection dataset.
+Download the dataset and extract it into the data/ folder in the root of your project directory. The structure should look like this:
+```
+/SmokingDetection/
+├── data/
+│   ├── new_smoking_images/
+│   │   ├── not_smoking/
+│   │   │   ├── 000015.jpg
+│   │   │   ├── ...
+│   │   ├── smoking/
+│   │   │   ├── 000002.jpg
+│   │   │   ├── ...
+```
+
 ## Usage
 Clone the Repository:
 ```bash
